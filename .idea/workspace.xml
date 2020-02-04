@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="691a6d94-5e89-4726-bb2b-869da8058577" name="Default Changelist" comment="" />
+    <list default="true" id="691a6d94-5e89-4726-bb2b-869da8058577" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/test.py" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,45 +18,29 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/yinliu1$douyin.coverage" NAME="douyin Coverage Results" MODIFIED="1580135985683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
     <SUITE FILE_PATH="coverage/yinliu1$douyin__1_.coverage" NAME="douyin (1) Coverage Results" MODIFIED="1580135659238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/main" />
-    <SUITE FILE_PATH="coverage/yinliu1$uiautomator2_cmd.coverage" NAME="uiautomator2_cmd Coverage Results" MODIFIED="1580186412760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/common" />
     <SUITE FILE_PATH="coverage/yinliu1$GenPyFile.coverage" NAME="GenPyFile Coverage Results" MODIFIED="1580190747992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/main" />
     <SUITE FILE_PATH="coverage/yinliu1$dbtest__1_.coverage" NAME="dbtest (1) Coverage Results" MODIFIED="1580114594414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/main" />
+    <SUITE FILE_PATH="coverage/yinliu_douyin$douyin_phone.coverage" NAME="douyin_phone Coverage Results" MODIFIED="1580732445811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
+    <SUITE FILE_PATH="coverage/yinliu1$douyin_phone.coverage" NAME="douyin_phone Coverage Results" MODIFIED="1580631972160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
+    <SUITE FILE_PATH="coverage/yinliu1$douyin_multiprocessing.coverage" NAME="douyin_multiprocessing Coverage Results" MODIFIED="1580022632017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yinliu1$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1580142376197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/uiautomator2" />
+    <SUITE FILE_PATH="coverage/yinliu_douyin$test.coverage" NAME="test Coverage Results" MODIFIED="1580698389776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
+    <SUITE FILE_PATH="coverage/yinliu1$uiautomator2_cmd.coverage" NAME="uiautomator2_cmd Coverage Results" MODIFIED="1580186412760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/common" />
     <SUITE FILE_PATH="coverage/yinliu1$db.coverage" NAME="db Coverage Results" MODIFIED="1580112949363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yinliu1$test.coverage" NAME="test Coverage Results" MODIFIED="1580631708569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
     <SUITE FILE_PATH="coverage/yinliu1$content_test.coverage" NAME="content_test Coverage Results" MODIFIED="1580190760756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/main" />
-    <SUITE FILE_PATH="coverage/yinliu1$douyin_phone.coverage" NAME="douyin_phone Coverage Results" MODIFIED="1580631972160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
     <SUITE FILE_PATH="coverage/yinliu1$dbtest.coverage" NAME="dbtest Coverage Results" MODIFIED="1580114548374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yinliu1$douyin_multiprocessing.coverage" NAME="douyin_multiprocessing Coverage Results" MODIFIED="1580022632017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yinliu1$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1580142376197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/uiautomator2" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="97" lean-forward="true" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="39" />
+            <state relative-caret-position="-558">
+              <caret line="82" column="80" lean-forward="true" selection-start-line="82" selection-start-column="80" selection-end-line="82" selection-end-column="80" />
               <folding>
                 <element signature="e#25#50#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/adb.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="63" column="7" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -82,7 +72,11 @@
       <find>com.ss.android.ugc.aweme:id/zc</find>
       <find>xml</find>
       <find>swi</find>
+      <find>com.ss.android.ugc.aweme:id/a50</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -108,9 +102,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-27" />
-    <option name="y" value="147" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="150" />
+    <option name="y" value="55" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -119,71 +113,66 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="yinliu1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yinliu1" type="462c0819:PsiDirectoryNode" />
+              <item name="yinliu_douyin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yinliu_douyin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yinliu1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yinliu1" type="462c0819:PsiDirectoryNode" />
+              <item name="yinliu_douyin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yinliu_douyin" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yinliu1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yinliu1" type="462c0819:PsiDirectoryNode" />
+              <item name="yinliu_douyin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yinliu_douyin" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="tomcatwang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yinliu1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yinliu1" type="462c0819:PsiDirectoryNode" />
+              <item name="yinliu_douyin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yinliu_douyin" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="tomcatwang" type="462c0819:PsiDirectoryNode" />
               <item name="bussiness" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yinliu1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yinliu1" type="462c0819:PsiDirectoryNode" />
+              <item name="yinliu_douyin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yinliu_douyin" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="tomcatwang" type="462c0819:PsiDirectoryNode" />
               <item name="bussiness" type="462c0819:PsiDirectoryNode" />
               <item name="douyin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="yinliu1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yinliu1" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcatwang" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580640810906" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580724260162" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.documentation.PythonDocumentationConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings module-name="yinliu1" is-module-sdk="true">
+      <console-settings module-name="yinliu1" sdk-home="C:\Users\tomcatwang\AppData\Local\Programs\Python\Python38\python.exe" is-module-sdk="true" working-directory="$PROJECT_DIR$">
+        <option name="mySdkHome" value="C:\Users\tomcatwang\AppData\Local\Programs\Python\Python38\python.exe" />
         <option name="myUseModuleSdk" value="true" />
         <option name="myModuleName" value="yinliu1" />
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$" />
       </console-settings>
     </option>
   </component>
@@ -360,17 +349,20 @@
       <workItem from="1580264329670" duration="18962000" />
       <workItem from="1580613167701" duration="2108000" />
       <workItem from="1580617190575" duration="6822000" />
+      <workItem from="1580644115526" duration="1109000" />
+      <workItem from="1580695542897" duration="10061000" />
+      <workItem from="1580732410014" duration="949000" />
+      <workItem from="1580781998494" duration="604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127167000" />
+    <option name="totallyTimeSpent" value="139890000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21002132" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1997319" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -381,7 +373,7 @@
       <window_info id="设计师" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44554454" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44475922" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5417256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,6 +387,7 @@
       <window_info active="true" anchor="bottom" id="运行" order="13" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="找到" order="14" />
       <window_info anchor="bottom" id="调试" order="15" weight="0.329718" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -566,30 +559,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/uiautomator2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="926" column="8" selection-start-line="926" selection-start-column="8" selection-end-line="926" selection-end-column="8" />
-          <folding>
-            <element signature="e#449#503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/uiautomator2/session.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="862">
           <caret line="920" selection-start-line="920" selection-end-line="920" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="e#25#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -603,31 +576,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/goto.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/goto.py" />
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/adb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        <state relative-caret-position="1197">
+          <caret line="63" column="7" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/adb.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/uiautomator2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="63" column="7" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="7" />
+        <state relative-caret-position="225">
+          <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+          <folding>
+            <element signature="e#449#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#25#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="190">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#25#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="97" lean-forward="true" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="39" />
+        <state relative-caret-position="-558">
+          <caret line="82" column="80" lean-forward="true" selection-start-line="82" selection-start-column="80" selection-end-line="82" selection-end-column="80" />
           <folding>
             <element signature="e#25#50#0" expanded="true" />
           </folding>
@@ -663,7 +653,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>activation-1.1.1</last-edited>
+          <last-edited>Python 3.7 (2) interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -675,7 +665,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Python 3.8</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -692,6 +682,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
