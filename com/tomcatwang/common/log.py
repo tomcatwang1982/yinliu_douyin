@@ -10,7 +10,7 @@ class Logger:
     def __init__(self, set_level="INFO",
                  name=os.path.split(os.path.splitext(sys.argv[0])[0])[-1],
                  log_name=time.strftime("%Y-%m-%d.log", time.localtime()),
-                 log_path=os.path.join(os.path.dirname(os.path.abspath(__file__)), "log"),
+                 log_path=os.path.join(os.path.dirname('C:/Users/tomcatwang/Desktop/yinliu_douyin/log'), "log"),
                  use_console=True):
         """
         :param set_level: 日志级别["NOTSET"|"DEBUG"|"INFO"|"WARNING"|"ERROR"|"CRITICAL"]，默认为INFO
