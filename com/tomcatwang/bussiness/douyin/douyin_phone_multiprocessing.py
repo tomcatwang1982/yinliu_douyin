@@ -4,6 +4,8 @@ import uiautomator2 as u2
 import time
 import multiprocessing as np
 import subprocess
+from com.tomcatwang.bussiness.douyin.douyin_phone import execute
+
 
 def getphonelist():  # 获取手机设备
     cmd = r'adb devices'  # % apk_file
@@ -17,20 +19,16 @@ def getphonelist():  # 获取手机设备
         devices.append(device)
     return devices  # 手机设备列表
 
-def MultiDevice( d):  # 功能执行
-    d.screen_on()
-    d.app_start("com.ss.android.ugc.aweme")
-    time.sleep(2)
-    d.screen_off()
+def MultiDevice(d):  # 功能执行
+    execute(d)
 
-def test_xxx(i):  #执行用例
-    d = u2.connect(getphonelist()[int(i)])  # d = u2.connect('192.168.1.117')#  uiautomator2 连接手机
-    MultiDevice(d)
+def execute_process(i):  #执行用例
+    MultiDevice(getphonelist()[int(i)])
 
 def main():#多进程
     print(len(getphonelist()))
     for i in range(len(getphonelist())):  #有几个设备起几个进程
-        p = np.Process(target=test_xxx, args=(str(i)))
+        p = np.Process(target=execute_process, args=(str(i)))
         p.start()
 
 if __name__ == '__main__':
