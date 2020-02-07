@@ -2,7 +2,7 @@
 
 import uiautomator2 as u2
 import time, re
-from com.tomcatwang.common.adb import swipe, tap
+from com.tomcatwang.common.adb_assign_device import adb_assign_device
 from com.tomcatwang.common.log import Logger
 from com.tomcatwang.common.douyin_init import douyin_init
 
@@ -12,6 +12,7 @@ def execute(device) :
     参数设置
     '''
     logger = Logger()
+    adb = adb_assign_device(device)
     # loop video num 需要循环观看多少个视频
     loop_video_num = 50
     loop_message_num = 5
@@ -39,9 +40,9 @@ def execute(device) :
         #    logger.info("返回操作..............................................................1")
         #else:
         logger.info("返回操作..............................................................")
-        #tap(61, 143)
-        d.click("61, 143")
-        #d.adb_shell("tap 61, 143")
+        adb.tap(61, 143)
+        #d.click(61,143)
+        #d.adb_shell("adb shell input tap 61 143")
 
     '''
     检测当前的页面
@@ -107,7 +108,8 @@ def execute(device) :
                 try:
                     if not d(resourceId='com.ss.android.ugc.aweme:id/a50').exists(timeout=1):
                         logger.info("留言数为0....................................................................")
-                        d.click("161, 143")
+                        #d.click(161, 143)
+                        adb.tap(161, 143)
                         #d.adb_shell("tap 161, 143")
                         logger.info("留言数为0，会提示输入留言，关闭留言窗口......................................")
                         d(resourceId='com.ss.android.ugc.aweme:id/aze').click()
@@ -132,7 +134,8 @@ def execute(device) :
                         d(resourceId='com.ss.android.ugc.aweme:id/aze').click()  # 同城中可以，推荐中不行
                     else:
                         #tap(194, 424)
-                        d.click("194, 424")
+                        #d.click(194, 424)
+                        adb.tap(194, 424)
                     logger.error("留言数异常,关闭留言窗口.........................................................")
 
                 logger.info(
