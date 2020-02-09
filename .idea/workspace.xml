@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="691a6d94-5e89-4726-bb2b-869da8058577" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/tomcatwang/common/douyin_init.py" afterDir="false" />
+    <list default="true" id="691a6d94-5e89-4726-bb2b-869da8058577" name="Default Changelist" comment="modify 2020-02-05">
+      <change afterPath="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/amemv-video-ripper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_vedio_clawer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/fuck-byted-acrawler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/tomcatwang/common/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/tomcatwang/common/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tomcatwang/common/scrcpy_multipy.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/tomcatwang/common/scrcpy_multipy.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,16 +17,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/yinliu_douyin$douyin_vedio_clawer.coverage" NAME="douyin_vedio_clawer Coverage Results" MODIFIED="1581147332265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
     <SUITE FILE_PATH="coverage/yinliu1$douyin.coverage" NAME="douyin Coverage Results" MODIFIED="1580135985683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
     <SUITE FILE_PATH="coverage/yinliu1$douyin__1_.coverage" NAME="douyin (1) Coverage Results" MODIFIED="1580135659238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/main" />
     <SUITE FILE_PATH="coverage/yinliu1$GenPyFile.coverage" NAME="GenPyFile Coverage Results" MODIFIED="1580190747992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/main" />
     <SUITE FILE_PATH="coverage/yinliu1$dbtest__1_.coverage" NAME="dbtest (1) Coverage Results" MODIFIED="1580114594414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/main" />
-    <SUITE FILE_PATH="coverage/yinliu_douyin$douyin_phone.coverage" NAME="douyin_phone Coverage Results" MODIFIED="1580890504141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
+    <SUITE FILE_PATH="coverage/yinliu_douyin$douyin_phone.coverage" NAME="douyin_phone Coverage Results" MODIFIED="1580992982240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
     <SUITE FILE_PATH="coverage/yinliu1$douyin_phone.coverage" NAME="douyin_phone Coverage Results" MODIFIED="1580631972160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
+    <SUITE FILE_PATH="coverage/yinliu_douyin$douyin_multiprocessing.coverage" NAME="douyin_multiprocessing Coverage Results" MODIFIED="1580973966536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
     <SUITE FILE_PATH="coverage/yinliu1$douyin_multiprocessing.coverage" NAME="douyin_multiprocessing Coverage Results" MODIFIED="1580022632017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yinliu1$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1580142376197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/uiautomator2" />
-    <SUITE FILE_PATH="coverage/yinliu_douyin$test.coverage" NAME="test Coverage Results" MODIFIED="1580823707758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
+    <SUITE FILE_PATH="coverage/yinliu_douyin$douyin_phone_multiprocessing.coverage" NAME="douyin_phone_multiprocessing Coverage Results" MODIFIED="1580993501959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
+    <SUITE FILE_PATH="coverage/yinliu_douyin$test.coverage" NAME="test Coverage Results" MODIFIED="1581150987017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
     <SUITE FILE_PATH="coverage/yinliu1$uiautomator2_cmd.coverage" NAME="uiautomator2_cmd Coverage Results" MODIFIED="1580186412760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/common" />
+    <SUITE FILE_PATH="coverage/yinliu_douyin$amemv_video_ripper.coverage" NAME="amemv-video-ripper Coverage Results" MODIFIED="1581171164497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
     <SUITE FILE_PATH="coverage/yinliu1$db.coverage" NAME="db Coverage Results" MODIFIED="1580112949363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yinliu1$test.coverage" NAME="test Coverage Results" MODIFIED="1580631708569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
     <SUITE FILE_PATH="coverage/yinliu1$content_test.coverage" NAME="content_test Coverage Results" MODIFIED="1580190760756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/main" />
@@ -34,24 +39,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py">
+        <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_vedio_clawer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="250" lean-forward="true" selection-start-line="250" selection-end-line="250" />
+            <state relative-caret-position="-934">
+              <caret line="60" column="26" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="26" />
               <folding>
-                <element signature="e#25#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_multiprocessing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-              <folding>
-                <element signature="e#25#50#0" expanded="true" />
+                <element signature="e#24#84#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,11 +53,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="37" column="60" selection-start-line="35" selection-start-column="4" selection-end-line="37" selection-end-column="60" />
+            <state relative-caret-position="418">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding>
                 <element signature="e#25#50#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/amemv-video-ripper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/re.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="238" selection-start-line="238" selection-end-line="238" />
             </state>
           </provider>
         </entry>
@@ -80,9 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>click</find>
-      <find>object</find>
-      <find>call</find>
       <find>_default_session</find>
       <find>description</find>
       <find>select</find>
@@ -103,7 +111,20 @@
       <find>loop_message_num</find>
       <find>用户出现异常</find>
       <find>swip</find>
+      <find>douyin_init</find>
+      <find>swipe</find>
+      <find>click</find>
+      <find>d.click</find>
+      <find>shell(</find>
+      <find>tap</find>
+      <find>headers</find>
+      <find>driver</find>
+      <find>fuck</find>
+      <find>generateSignature</find>
     </findStrings>
+    <replaceStrings>
+      <replace>self.shell(</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,10 +149,22 @@
         <option value="$PROJECT_DIR$/com/tomcatwang/main/GenPyFile.py" />
         <option value="$PROJECT_DIR$/com/tomcatwang/common/log.py" />
         <option value="$PROJECT_DIR$/com/tomcatwang/common/douyin_init.py" />
-        <option value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/test.py" />
         <option value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py" />
+        <option value="$PROJECT_DIR$/com/tomcatwang/common/adb_assign_device.py" />
+        <option value="$PROJECT_DIR$/com/tomcatwang/common/configParse.py" />
+        <option value="$PROJECT_DIR$/com/tomcatwang/common/scrcpy_multipy.py" />
+        <option value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone_multiprocessing.py" />
+        <option value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/test.py" />
+        <option value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_vedio_clawer.py" />
+        <option value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/amemv-video-ripper.py" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="150" />
@@ -144,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,44 +185,17 @@
               <item name="yinliu_douyin" type="b2602c69:ProjectViewProjectNode" />
               <item name="yinliu_douyin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="yinliu_douyin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yinliu_douyin" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yinliu_douyin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yinliu_douyin" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcatwang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yinliu_douyin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yinliu_douyin" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcatwang" type="462c0819:PsiDirectoryNode" />
-              <item name="bussiness" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yinliu_douyin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yinliu_douyin" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcatwang" type="462c0819:PsiDirectoryNode" />
-              <item name="bussiness" type="462c0819:PsiDirectoryNode" />
-              <item name="douyin" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580901633423" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581171221467" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -209,15 +216,16 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tomcatwang\Desktop\yinliu_douyin\com\tomcatwang\bussiness\douyin" />
+      <recent name="D:\ideaprojects\yinliu1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ideaprojects\yinliu1\com\tomcatwang" />
       <recent name="D:\ideaprojects\yinliu1\com\tomcatwang\bussiness\douyin" />
       <recent name="D:\ideaprojects\yinliu1\com\tomcatwang\test" />
       <recent name="D:\ideaprojects\yinliu1\com\tomcatwang\common" />
       <recent name="D:\ideaprojects\yinliu1\com\tomcatwang\main" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ideaprojects\yinliu1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -232,44 +240,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.douyin_phone">
-    <configuration name="GenPyFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.amemv-video-ripper">
+    <configuration name="amemv-video-ripper" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yinliu1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/tomcatwang/main" />
+      <option name="SDK_HOME" value="C:\Users\tomcatwang\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tomcatwang/main/GenPyFile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="content_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yinliu1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/tomcatwang/main" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tomcatwang/main/content_test.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/amemv-video-ripper.py" />
+      <option name="PARAMETERS" value="https://www.iesdouyin.com/share/user/101897037023?u_code=158mf6i5j&amp;sec_uid=MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -291,6 +277,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="douyin_phone_multiprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yinliu1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone_multiprocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="douyin_vedio_clawer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yinliu1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_vedio_clawer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,35 +351,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="uiautomator2_cmd" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yinliu1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/tomcatwang/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tomcatwang/common/uiautomator2_cmd.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Python.amemv-video-ripper" />
+      <item itemvalue="Python.douyin_phone" />
+      <item itemvalue="Python.douyin_phone_multiprocessing" />
+      <item itemvalue="Python.douyin_vedio_clawer" />
+      <item itemvalue="Python.test" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.douyin_phone" />
+        <item itemvalue="Python.amemv-video-ripper" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.content_test" />
-        <item itemvalue="Python.GenPyFile" />
-        <item itemvalue="Python.uiautomator2_cmd" />
+        <item itemvalue="Python.douyin_vedio_clawer" />
+        <item itemvalue="Python.douyin_phone_multiprocessing" />
+        <item itemvalue="Python.douyin_phone" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +401,12 @@
       <workItem from="1580732410014" duration="949000" />
       <workItem from="1580781998494" duration="19178000" />
       <workItem from="1580816755306" duration="8003000" />
-      <workItem from="1580871585618" duration="8430000" />
+      <workItem from="1580871585618" duration="9137000" />
+      <workItem from="1580973853518" duration="1876000" />
+      <workItem from="1580989985263" duration="3682000" />
+      <workItem from="1581039048717" duration="5332000" />
+      <workItem from="1581076664917" duration="1042000" />
+      <workItem from="1581135833683" duration="10556000" />
     </task>
     <task id="LOCAL-00001" summary="modify 2020-02-03">
       <created>1580782693010</created>
@@ -395,17 +415,58 @@
       <option name="project" value="LOCAL" />
       <updated>1580782693010</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="modify 2020-02-05">
+      <created>1580907154020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580907154021</updated>
+    </task>
+    <task id="LOCAL-00003" summary="modify 2020-02-06">
+      <created>1580979040790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580979040790</updated>
+    </task>
+    <task id="LOCAL-00004" summary="modify 2020-02-05">
+      <created>1580993151135</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580993151135</updated>
+    </task>
+    <task id="LOCAL-00005" summary="modify 2020-02-05">
+      <created>1580993568840</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580993568840</updated>
+    </task>
+    <task id="LOCAL-00006" summary="modify 2020-02-05">
+      <created>1581045845495</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581045845496</updated>
+    </task>
+    <task id="LOCAL-00007" summary="modify 2020-02-05">
+      <created>1581045863020</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581045863020</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174897000" />
+    <option name="totallyTimeSpent" value="198092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20509383" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19772118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -416,8 +477,8 @@
       <window_info id="设计师" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5084986" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5417256" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5042493" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5410765" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -437,7 +498,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="SciView" order="8" />
@@ -450,7 +511,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modify 2020-02-03" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify 2020-02-03" />
+    <MESSAGE value="modify 2020-02-06" />
+    <MESSAGE value="modify 2020-02-05" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify 2020-02-05" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/amemv-video-ripper.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -471,20 +545,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/uiautomator2/__main__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3/multiprocessing/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="230" column="11" selection-start-line="230" selection-start-column="4" selection-end-line="230" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -496,13 +560,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/dict/db_dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="12" selection-start-line="1" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/tomcatwang/main/dbtest.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -588,19 +645,12 @@
     </entry>
     <entry file="file://$USER_HOME$/.IntelliJIdea2018.3/system/python_stubs/85948042/builtins.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/goto.py" />
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/adb.py">
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/test/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="63" column="7" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/uiautomator2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+        <state relative-caret-position="209">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <element signature="e#449#503#0" expanded="true" />
+            <element signature="e#24#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -615,22 +665,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/test/test.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/uiautomator2/abcd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="171">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/wda/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="634" column="8" selection-start-line="634" selection-start-column="8" selection-end-line="634" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/uiautomator2/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6612">
+          <caret line="366" column="8" selection-start-line="366" selection-start-column="8" selection-end-line="366" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/uiautomator2/xpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="611" column="8" selection-start-line="611" selection-start-column="8" selection-end-line="611" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/uiautomator2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="910" column="8" selection-start-line="910" selection-start-column="8" selection-end-line="910" selection-end-column="8" />
           <folding>
-            <element signature="e#24#49#0" expanded="true" />
+            <element signature="e#449#503#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/adb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="47" column="22" lean-forward="true" selection-end-line="94" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/2020-02-06.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4047" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#25#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/dict/db_dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="12" selection-start-line="1" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/douyin_init.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state>
+          <caret selection-end-column="23" />
           <folding>
             <element signature="e#25#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/scrcpy_multipy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone_multiprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#25#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -638,47 +765,131 @@
     <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <caret line="12" column="112" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="12" selection-end-column="112" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/uiautomator2/session.py">
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/configParse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="752" selection-start-line="752" selection-end-line="752" />
+        <state relative-caret-position="247">
+          <caret line="14" column="81" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="14" selection-end-column="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/splinter/browser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="250" lean-forward="true" selection-start-line="250" selection-end-line="250" />
+        <state relative-caret-position="843">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/adb_assign_device.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/http/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1295">
+          <caret line="1197" selection-start-line="1197" selection-end-line="1197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/_collections_abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="838" selection-start-line="838" selection-end-line="838" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/requests/structures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/requests/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="805" selection-start-line="805" selection-end-line="805" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="417" selection-start-line="417" selection-end-line="417" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="848" selection-start-line="848" selection-end-line="848" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_vedio_clawer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-934">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="26" />
           <folding>
-            <element signature="e#25#50#0" expanded="true" />
+            <element signature="e#24#84#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="37" column="60" selection-start-line="35" selection-start-column="4" selection-end-line="37" selection-end-column="60" />
+        <state relative-caret-position="418">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding>
             <element signature="e#25#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_multiprocessing.py">
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/fuck-byted-acrawler.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/re.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#25#50#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="238" selection-start-line="238" selection-end-line="238" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/amemv-video-ripper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
         </state>
       </provider>
     </entry>
