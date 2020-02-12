@@ -6,8 +6,7 @@ import subprocess
 from com.tomcatwang.bussiness.douyin.douyin_phone import execute
 
 
-Logger = Logger()
-
+#Logger = Logger()
 def getphonelist():  # 获取手机设备
     cmd = r'adb devices'  # % apk_file
     pr = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
@@ -16,8 +15,12 @@ def getphonelist():  # 获取手机设备
     devices = []
     for i in (out)[1:-1]:
         device = str(i).split("\\")[0].split("'")[-1]
-        Logger.info("设备是:==================================================>" + device)
-        devices.append(device)
+        status = str(i).split("\\")[1].split("'")[-1]
+        print("设备是:==================================================>" + device)
+        print("状态是:==================================================>" + status)
+
+        if(status.index("tdevice") > -1) :
+            devices.append(device)
     return devices  # 手机设备列表
 
 def MultiDevice(d):  # 功能执行

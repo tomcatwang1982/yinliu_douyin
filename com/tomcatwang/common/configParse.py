@@ -4,23 +4,37 @@ import configparser
 
 
 class Config_Parse:
-
-    def __init__(self, config_type):
+    configFilePath = ""
+    config_type = ""
+    device = ""
+    config = None
+    def __init__(self, device, config_type=None):
         self.config_type = config_type
-
+        self.device = device
         # 项目路径
-        rootDir = os.path.split(os.path.realpath(__file__))[0]
+        #rootDir = os.path.split(os.path.realpath(__file__))[0]
 
         # config.ini文件路径
-        configFilePath = os.path.join(str(rootDir) + "/config", self.config_type)
+        rootDir = os.path.abspath(os.path.dirname(__file__)).split('yinliu_douyin')[0] + "yinliu_douyin"
+        self.configFilePath = rootDir + "\config" +  "\\" + self.device + ".ini"
+        #print(self.configFilePath)
+        self.config = configparser.ConfigParser()
+        #print(self.configFilePath)
+        self.config.read(self.configFilePath)
 
-    def get_config_values(self, section, option):
+
+    def get_config_values(self, option, section='tomcatwang'):
         """
          根据传入的section获取对应的value
          :param section: ini配置文件中用[]标识的内容
          :return:
          """
-        config = configparser.ConfigParser()
-        config.read(self.configFilePath)
+
+
         # return config.items(section=section)
-        return config.get(section=section, option=option)
+        return self.config.get(section=section, option=option)
+
+if __name__ == '__main__':
+    configuration = Config_Parse("7460300e")
+    #print(configuration.get_config_values('ServerAliveInterval','tomcatwang'))
+    print(configuration.get_config_values("page_down_x1",'tomcatwang'))

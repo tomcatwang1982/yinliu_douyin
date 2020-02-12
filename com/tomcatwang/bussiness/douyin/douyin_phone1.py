@@ -5,7 +5,6 @@ import time, re
 from com.tomcatwang.common.adb_assign_device import adb_assign_device
 from com.tomcatwang.common.log import Logger
 from com.tomcatwang.common.douyin_init import douyin_init
-from com.tomcatwang.common.configParse import Config_Parse
 
 def execute(device) :
     ##########################################################################
@@ -13,7 +12,6 @@ def execute(device) :
     参数设置
     '''
     logger = Logger()
-    configuration = Config_Parse(device)
     adb = adb_assign_device(device)
     # loop video num 需要循环观看多少个视频
     loop_video_num = 10
@@ -22,18 +20,18 @@ def execute(device) :
     douyin_start_time = 8
     ##########################################################################
     ##抖音視頻翻頁##
-    page_down_x1 = int(configuration.get_config_values("page_down_x1"))#501
-    page_down_y1 = int(configuration.get_config_values("page_down_y1"))#1819
-    page_down_x2 = int(configuration.get_config_values("page_down_x2"))#497
-    page_down_y2 = int(configuration.get_config_values("page_down_y2"))#265
+    page_down_x1 = 501
+    page_down_y1 = 1819
+    page_down_x2 = 497
+    page_down_y2 = 265
     #device = '7460300e'
     ###########################################################################
     '''
     func def
     '''
     ##日志##
-    #def log():
-    #    return Logger().logger
+    def log():
+        return Logger().logger
 
 
     def return_pre_page():
@@ -42,8 +40,7 @@ def execute(device) :
         #    logger.info("返回操作..............................................................1")
         #else:
         logger.info("返回操作..............................................................")
-        #adb.tap(61, 143)
-        adb.tap(int(configuration.get_config_values("return_x")),int(configuration.get_config_values("return_y")))
+        adb.tap(61, 143)
         #d.click(61,143)
         #d.adb_shell("adb shell input tap 61 143")
 
@@ -114,14 +111,13 @@ def execute(device) :
                     if not d(resourceId='com.ss.android.ugc.aweme:id/a53').exists(timeout=1):
                         logger.info("留言数为0....................................................................")
                         #d.click(161, 143)
-                        adb.tap(int(configuration.get_config_values("message_0_x")),int(configuration.get_config_values("message_0_y")))
+                        adb.tap(161, 143)
                         #d.adb_shell("tap 161, 143")
                         logger.info("留言数为0，会提示输入留言，关闭留言窗口......................................")
                         if d(resourceId='com.ss.android.ugc.aweme:id/aze').exists(timeout=1):  # 同城中可以，推荐中不行
                             d(resourceId='com.ss.android.ugc.aweme:id/aze').click()
                         else:
-                            #d.click(442, 413)
-                            d.click(int(configuration.get_config_values("message_x")),int(configuration.get_config_values("message_y")))
+                            d.click(442, 413)
                         logger.info("留言数为0，关闭留言窗口......................................................")
                         continue
 
@@ -144,7 +140,7 @@ def execute(device) :
                     else:
                         #tap(194, 424)
                         #d.click(194, 424)
-                        d.click(int(configuration.get_config_values("message_x")),int(configuration.get_config_values("message_y")))
+                        adb.tap(194, 424)
                     logger.error("留言数异常,关闭留言窗口.........................................................")
 
                 logger.info(
@@ -271,8 +267,7 @@ def execute(device) :
                         if d(resourceId='com.ss.android.ugc.aweme:id/aze').exists(timeout=1):  # 同城中可以，推荐中不行
                             d(resourceId='com.ss.android.ugc.aweme:id/aze').click()
                         else:
-                            #d.click(442, 413)
-                            d.click(int(configuration.get_config_values("message_x")),int(configuration.get_config_values("message_y")))
+                            d.click(442, 413)
 
                         logger.info("完成第"+str(j)+"视频-----------------------------------------------------------------------------end\n")
 
