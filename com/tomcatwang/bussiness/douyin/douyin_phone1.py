@@ -280,4 +280,4 @@ def execute(device) :
         logger.info("最外层程序异常...................................................")
         logger.error(e)
 
-#execute('7460300e')
+execute('2529b8a80906')
