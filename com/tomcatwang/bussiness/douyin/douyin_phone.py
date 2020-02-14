@@ -7,7 +7,8 @@ from com.tomcatwang.common.log import Logger
 from com.tomcatwang.common.douyin_init import douyin_init
 from com.tomcatwang.common.configParse import Config_Parse
 
-def execute(device) :
+
+def execute(device):
     ##########################################################################
     '''
     参数设置
@@ -22,40 +23,49 @@ def execute(device) :
     douyin_start_time = 8
     ##########################################################################
     ##抖音視頻翻頁##
-    page_down_x1 = int(configuration.get_config_values("page_down_x1"))#501
-    page_down_y1 = int(configuration.get_config_values("page_down_y1"))#1819
-    page_down_x2 = int(configuration.get_config_values("page_down_x2"))#497
-    page_down_y2 = int(configuration.get_config_values("page_down_y2"))#265
-    #device = '7460300e'
+    page_down_x1 = int(configuration.get_config_values("page_down_x1"))  # 501
+    page_down_y1 = int(configuration.get_config_values("page_down_y1"))  # 1819
+    page_down_x2 = int(configuration.get_config_values("page_down_x2"))  # 497
+    page_down_y2 = int(configuration.get_config_values("page_down_y2"))  # 265
+    # device = '7460300e'
     ###########################################################################
     '''
     func def
     '''
+
     ##日志##
-    #def log():
+    # def log():
     #    return Logger().logger
 
-
     def return_pre_page():
-        #if d(resourceId="com.ss.android.ugc.aweme:id/c1p", description='返回').exists(timeout=2):
-        #    d(resourceId="com.ss.android.ugc.aweme:id/c1p", description='返回').click()
-        #    logger.info("返回操作..............................................................1")
-        #else:
-        logger.info("返回操作..............................................................")
-        #adb.tap(61, 143)
-        adb.tap(int(configuration.get_config_values("return_x")),int(configuration.get_config_values("return_y")))
-        #d.click(61,143)
-        #d.adb_shell("adb shell input tap 61 143")
+        return_page_menu = configuration.get_config_values('return_page_menu')
+        if return_page_menu != '':
+            print("=======================1")
+            if (d(resourceId='com.ss.android.ugc.aweme:id/kp').exists(timeout=1)):
+                print("=======================2")
+                d(resourceId='com.ss.android.ugc.aweme:id/kp').click()
+            else:
+                print("=======================3" + configuration.get_config_values(
+                    "return_x") + "," + configuration.get_config_values("return_y"))
+                adb.tap(int(configuration.get_config_values("return_x")),
+                        int(configuration.get_config_values("return_y")))
+        else:
+            print("=======================4" + configuration.get_config_values(
+                "return_x") + "," + configuration.get_config_values("return_y"))
+            adb.tap(int(configuration.get_config_values("return_x")), int(configuration.get_config_values("return_y")))
+
+        # d.click(61,143)
+        # d.adb_shell("adb shell input tap 61 143")
 
     '''
     检测当前的页面
     '''
+
     def check_is_user_guanzhu_page():
         if (d(text="取消关注").exists() or d(text="相互关注").exists() or d(text="正在请求")):
             logger.info("在用户关注页面，需要返回")
             return_pre_page()
             logger.info("返回视频留言页面..............................................................")
-
 
     def is_user_vieo_page():
         if d.exists(resourceId='com.ss.android.ugc.aweme:id/zc'):
@@ -86,11 +96,13 @@ def execute(device) :
     # d = u2.connect('192.168.1.119:5555')
     logger.info("连接手机.............................................................." + str(device))
     d = u2.connect(device)
+
     logger.info("程序初始化......................................................................")
-    douyin_init(d)
+    douyin_init(d, device)
     logger.info("启动抖音程序....................................................................")
 
     try:
+        message_close_menu = configuration.get_config_values("message_close_menu")
         for j in range(0, loop_video_num):
             logger.info("loop_video_num is.............................->" + str(loop_video_num))
             # loop message num 需要循环多少个留言用户
@@ -103,29 +115,35 @@ def execute(device) :
                 logger.info("第" + str(j) + "个视频,不是视频页面，可能是直播或者其他页面.............................")
                 continue
             # loop wait message button appear 点击回复按钮
-            if d.exists(resourceId='com.ss.android.ugc.aweme:id/zc'):
+            # xml = d.dump_hierarchy()
+            # print(xml)
+            message_menu = configuration.get_config_values("message_menu")
+            if d.exists(resourceId=message_menu):  # com.ss.android.ugc.aweme:id/zd
                 logger.info("第" + str(j) + "个视频..................................................................")
                 logger.info("点击回复按钮....................................................................")
-                d(resourceId='com.ss.android.ugc.aweme:id/zc').click()
-                #xml = d.dump_hierarchy()
-                #print(xml)
+                d(resourceId=message_menu).click()
+                # xml = d.dump_hierarchy()
+                # print(xml)
                 ##get ping lun shu
+                message_num = configuration.get_config_values('message_num')
                 try:
-                    if not d(resourceId='com.ss.android.ugc.aweme:id/a53').exists(timeout=1):
+                    if not d(resourceId=message_num).exists(timeout=1):
                         logger.info("留言数为0....................................................................")
-                        #d.click(161, 143)
-                        adb.tap(int(configuration.get_config_values("message_0_x")),int(configuration.get_config_values("message_0_y")))
-                        #d.adb_shell("tap 161, 143")
+                        # d.click(161, 143)
+                        adb.tap(int(configuration.get_config_values("message_0_x")),
+                                int(configuration.get_config_values("message_0_y")))
+                        # d.adb_shell("tap 161, 143")
                         logger.info("留言数为0，会提示输入留言，关闭留言窗口......................................")
-                        if d(resourceId='com.ss.android.ugc.aweme:id/aze').exists(timeout=1):  # 同城中可以，推荐中不行
-                            d(resourceId='com.ss.android.ugc.aweme:id/aze').click()
+                        if d(resourceId=message_close_menu).exists(timeout=1):  # 同城中可以，推荐中不行
+                            d(resourceId=message_close_menu).click()
                         else:
-                            #d.click(442, 413)
-                            d.click(int(configuration.get_config_values("message_x")),int(configuration.get_config_values("message_y")))
+                            # d.click(442, 413)
+                            d.click(int(configuration.get_config_values("message_x")),
+                                    int(configuration.get_config_values("message_y")))
                         logger.info("留言数为0，关闭留言窗口......................................................")
                         continue
 
-                    message_total = str((d(resourceId='com.ss.android.ugc.aweme:id/a53').info['contentDescription']))
+                    message_total = str((d(resourceId=message_num).info['contentDescription']))
                     str_ping_lun_total = re.findall("([1-9]+)", message_total)[0]
                     logger.info(
                         "str_ping_lun_total............................................------>:" + str_ping_lun_total)
@@ -139,16 +157,18 @@ def execute(device) :
                     print(e)
                     logger.error("留言数异常......................................................................")
                     int_ping_lun_total = 0
-                    if d(resourceId='com.ss.android.ugc.aweme:id/aze').exists(timeout=1):
-                        d(resourceId='com.ss.android.ugc.aweme:id/aze').click()  # 同城中可以，推荐中不行
+                    if d(resourceId=message_close_menu).exists(timeout=1):
+                        d(resourceId=message_close_menu).click()  # 同城中可以，推荐中不行
                     else:
-                        #tap(194, 424)
-                        #d.click(194, 424)
-                        d.click(int(configuration.get_config_values("message_x")),int(configuration.get_config_values("message_y")))
+                        # tap(194, 424)
+                        # d.click(194, 424)
+                        d.click(int(configuration.get_config_values("message_x")),
+                                int(configuration.get_config_values("message_y")))
                     logger.error("留言数异常,关闭留言窗口.........................................................")
 
                 logger.info(
-                    "留言数量是...............................................................--->:" + str(int_ping_lun_total))
+                    "留言数量是...............................................................--->:" + str(
+                        int_ping_lun_total))
                 ###message num if > 0
 
                 try:
@@ -161,25 +181,28 @@ def execute(device) :
                         good_num = 0
                         bad_mum = 0
                         i = 0
-                        while True :
+                        while True:
                             logger.info("第" + str(
                                 i) + "个有用户留言..................................................................")
 
-                            if (good_num == loop_message_num_per or (i >= loop_message_num_per)) :
+                            if (good_num == loop_message_num_per or (i >= loop_message_num_per)):
                                 break
 
+                            each_message_sign_1 = configuration.get_config_values('each_message_sign_1')
+                            each_message_sign_2 = configuration.get_config_values('each_message_sign_2')
+                            each_message_sign_3 = configuration.get_config_values('each_message_sign_3')
                             try:
-                                if (d(resourceId="com.ss.android.ugc.aweme:id/a84", index=str(i)).exists(timeout=1.5)\
-                                       or d(resourceId="com.ss.android.ugc.aweme:id/bzu", index=str(i)).exists(timeout=1)):
+                                if (d(resourceId=each_message_sign_1, index=str(i)).exists(timeout=1.5) \
+                                        or d(resourceId=each_message_sign_2, index=str(i)).exists(timeout=1)):
 
-                                    if (d(resourceId="com.ss.android.ugc.aweme:id/a84", index=str(i)).exists(timeout=0.7)) :
-                                        d(resourceId="com.ss.android.ugc.aweme:id/a84", index=str(i)).child(
-                                            resourceId="com.ss.android.ugc.aweme:id/bzu").child(
-                                            resourceId="com.ss.android.ugc.aweme:id/jo").click()
-                                    elif (d(resourceId="com.ss.android.ugc.aweme:id/bzu", index=str(i)).exists(timeout=0.7)) :
-                                        d(resourceId="com.ss.android.ugc.aweme:id/bzu", index=str(i)).child(
-                                            resourceId="com.ss.android.ugc.aweme:id/a84").child(
-                                            resourceId="com.ss.android.ugc.aweme:id/jo").click()
+                                    if (d(resourceId=each_message_sign_1, index=str(i)).exists(timeout=0.7)):
+                                        d(resourceId=each_message_sign_1, index=str(i)).child(
+                                            resourceId=each_message_sign_2).child(
+                                            resourceId=each_message_sign_3).click()
+                                    elif (d(resourceId=each_message_sign_2, index=str(i)).exists(timeout=0.7)):
+                                        d(resourceId=each_message_sign_2, index=str(i)).child(
+                                            resourceId=each_message_sign_1).child(
+                                            resourceId=each_message_sign_3).click()
 
                                     time.sleep(0.7)
 
@@ -203,7 +226,8 @@ def execute(device) :
 
                                     if d(text="关注").exists(timeout=1):
                                         logger.info(
-                                            "关注第" + str(i) + "个有用户......................................................")
+                                            "关注第" + str(
+                                                i) + "个有用户......................................................")
                                         d(text="关注").click()
                                     else:  # 如果没有关注就返回
                                         logger.info(
@@ -217,7 +241,8 @@ def execute(device) :
                                     if d(text="私信").exists(timeout=1):
                                         d(text='私信').click()
                                         logger.info(
-                                            "私信第" + str(i) + "个有用户......................................................")
+                                            "私信第" + str(
+                                                i) + "个有用户......................................................")
                                         time.sleep(1)
                                     else:  # 如果没有私信就返回
                                         logger.info(
@@ -230,7 +255,8 @@ def execute(device) :
 
                                     if d(text="发送消息…").exists(timeout=0.5):
                                         logger.info(
-                                            "私信第" + str(i) + "个用户......................................................")
+                                            "私信第" + str(
+                                                i) + "个用户......................................................")
                                         d(text="发送消息…").send_keys(hua_su)
                                         time.sleep(2)
 
@@ -242,11 +268,14 @@ def execute(device) :
                                     logger.info(
                                         "返回第" + str(i) + "个用户关注页面...................................................")
 
+                                    time.sleep(2)
+
                                     return_pre_page()
                                     logger.info(
                                         "返回用户视频留言页面...................................................")
 
-                                    logger.info("完成第"+str(i)+"用户关注---------------------------------------------------------------end\n")
+                                    logger.info("完成第" + str(
+                                        i) + "用户关注---------------------------------------------------------------end\n")
                                     good_num = good_num + 1
                                     i = i + 1
                                 else:
@@ -254,7 +283,7 @@ def execute(device) :
                                     logger.info(
                                         "点击第" + str(i) + "个用户出现异常...................................................")
                                     i = i + 1
-                                    #return_pre_page()
+                                    # return_pre_page()
                                     continue
                             except Exception as e1:
                                 bad_mum = bad_mum + 1
@@ -264,17 +293,18 @@ def execute(device) :
                                 logger.error(e1)
                                 continue
 
-
                         ##查询当前页面##
                         check_is_user_guanzhu_page()
 
-                        if d(resourceId='com.ss.android.ugc.aweme:id/aze').exists(timeout=1):  # 同城中可以，推荐中不行
-                            d(resourceId='com.ss.android.ugc.aweme:id/aze').click()
+                        if d(resourceId=message_close_menu).exists(timeout=1):  # 同城中可以，推荐中不行
+                            d(resourceId=message_close_menu).click()
                         else:
-                            #d.click(442, 413)
-                            d.click(int(configuration.get_config_values("message_x")),int(configuration.get_config_values("message_y")))
+                            # d.click(442, 413)
+                            d.click(int(configuration.get_config_values("message_x")),
+                                    int(configuration.get_config_values("message_y")))
 
-                        logger.info("完成第"+str(j)+"视频-----------------------------------------------------------------------------end\n")
+                        logger.info("完成第" + str(
+                            j) + "视频-----------------------------------------------------------------------------end\n")
 
                         time.sleep(1)
                 except Exception as e2:
@@ -285,4 +315,6 @@ def execute(device) :
         logger.info("最外层程序异常...................................................")
         logger.error(e)
 
-#execute('7460300e')
+
+execute('7460300e')
+#execute('d3cf3594')

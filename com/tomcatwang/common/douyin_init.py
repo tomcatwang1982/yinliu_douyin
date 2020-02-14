@@ -3,8 +3,12 @@
 import uiautomator2 as u2
 import time
 from com.tomcatwang.common.log import Logger
+from com.tomcatwang.common.configParse import Config_Parse
 
-def douyin_init(d) :
+
+
+def douyin_init(d,device) :
+    configuration = Config_Parse(device)
     d.app_start("com.github.uiautomator", "com.github.uiautomator.MainActivity")
 
     #xml = d.dump_hierarchy()
@@ -21,7 +25,11 @@ def douyin_init(d) :
     time.sleep(3)
     #xml = d.dump_hierarchy()
     #print(xml)
-    d(resourceId="com.ss.android.ugc.aweme:id/aay").click()
+    #点击同城第一个视频
+    #d(resourceId="com.ss.android.ugc.aweme:id/aay").click()
+    city_menu=configuration.get_config_values('city_menu')
+    print('city_menu---------------------> is : ' + str(city_menu))
+    d(resourceId=city_menu).click()
     time.sleep(2)
     print("程序初始化完成....................................................................")
 #d = u2.connect('2529b8a80906')
