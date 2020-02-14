@@ -316,5 +316,6 @@ def execute(device):
         logger.error(e)
 
 
-execute('7460300e')
+execute('2529b8a80906')
+#execute('7460300e')
 #execute('d3cf3594')
