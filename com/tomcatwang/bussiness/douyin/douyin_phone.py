@@ -23,14 +23,6 @@ def execute(device, config_path):
     # loop video num 需要循环观看多少个视频
     loop_video_num = int(configuration.get_config_values('loop_video_num'))
     loop_message_num = int(configuration.get_config_values('loop_message_num'))
-    hua_su_array = []
-    hua_su_array[1] = configuration.get_config_values('hua_su1')
-    hua_su_array[2] = configuration.get_config_values('hua_su2')
-    hua_su_array[3] = configuration.get_config_values('hua_su3')
-
-    husu_array_index = random.randint(1,3)
-    hua_su = hua_su_array[husu_array_index]
-
     douyin_start_time = 8
     ##########################################################################
     ##抖音視頻翻頁##
@@ -67,6 +59,29 @@ def execute(device, config_path):
 
         # d.click(61,143)
         # d.adb_shell("adb shell input tap 61 143")
+
+    '''
+    '''
+
+    def get_each_message_time():
+        each_message_sleep_times_min = configuration.get_config_values('each_message_sleep_times_min')
+        each_message_sleep_times_max = configuration.get_config_values('each_message_sleep_times_max')
+        random_sleep_time = random.randint(int(each_message_sleep_times_min), int(each_message_sleep_times_max))
+        return random_sleep_time
+
+    '''
+    获取话术
+    '''
+
+    def get_hua_su():
+        hua_su_array = [configuration.get_config_values('hua_su1'), configuration.get_config_values('hua_su2'),
+                        configuration.get_config_values('hua_su3')]
+
+        husu_array_index = random.randint(1, 3)
+        hua_su = hua_su_array[husu_array_index - 1]
+        logger.info("话术是:-----------------------------------------------------------------> : " + hua_su)
+
+        return hua_su
 
     '''
     检测当前的页面
@@ -118,10 +133,13 @@ def execute(device, config_path):
             logger.info("loop_video_num is.............................->" + str(loop_video_num))
             # loop message num 需要循环多少个留言用户
             loop_message_num_per = loop_message_num
-            # pagedown,上滑，视频翻页
-            d.swipe(page_down_x1, page_down_y1, page_down_x2, page_down_y2)
-            d.swipe(page_down_x1, page_down_y1, page_down_x2, page_down_y2)
-            d.swipe(page_down_x1, page_down_y1, page_down_x2, page_down_y2)
+            # pagedown,上滑，视频翻页,随机向上翻几次
+            page_down_num = random.randint(2, 5)
+            for k in range(0, page_down_num):
+                d.swipe(page_down_x1, page_down_y1, page_down_x2, page_down_y2)
+                time.sleep(1)
+            # d.swipe(page_down_x1, page_down_y1, page_down_x2, page_down_y2)
+            # d.swipe(page_down_x1, page_down_y1, page_down_x2, page_down_y2)
             if not is_user_vieo_page:
                 logger.info("第" + str(j) + "个视频,不是视频页面，可能是直播或者其他页面.............................")
                 continue
@@ -268,7 +286,8 @@ def execute(device, config_path):
                                         logger.info(
                                             "私信第" + str(
                                                 i) + "个用户......................................................")
-                                        d(text="发送消息…").send_keys(hua_su)
+
+                                        d(text="发送消息…").send_keys(get_hua_su())
                                         time.sleep(2)
 
                                     if d(description="发送").exists(timeout=0.5):
@@ -289,6 +308,12 @@ def execute(device, config_path):
                                         i) + "用户关注---------------------------------------------------------------end\n")
                                     good_num = good_num + 1
                                     i = i + 1
+
+                                    random_sleep_time = get_each_message_time()
+                                    logger.info(
+                                        "每次回复的时间是:-----------------------------------------------------------------> : " + str(
+                                            random_sleep_time))
+                                    time.sleep(random_sleep_time)
                                 else:
                                     bad_mum = bad_mum + 1
                                     logger.info(
@@ -317,10 +342,7 @@ def execute(device, config_path):
                         logger.info("完成第" + str(
                             j) + "视频-----------------------------------------------------------------------------end\n")
                         #
-                        each_video_sleep_times_min = configuration.get_config_values('each_video_sleep_times_min')
-                        each_video_sleep_times_max = configuration.get_config_values('each_video_sleep_times_max')
-                        random_sleep_time = random.randint(int(each_video_sleep_times_min),int(each_video_sleep_times_max))
-                        time.sleep(random_sleep_time)
+                        time.sleep(1)
                 except Exception as e2:
                     logger.error(e2)
                     continue
@@ -334,6 +356,6 @@ def execute(device, config_path):
 # execute('7460300e')
 # execute('d3cf3594')
 if (len(sys.argv) < 0):
-    print(" input douyin_phone decvice_name")
-print(sys.argv[1],sys.argv[2])
+    print(" input douyin_phone decvice_name item_path")
+print(sys.argv[1], sys.argv[2])
 execute(sys.argv[1], sys.argv[2])
