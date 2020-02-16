@@ -1,181 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="691a6d94-5e89-4726-bb2b-869da8058577" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/tomcatwang/PythonConfigTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/7460300e.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2020-02-04.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2020-02-05.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2020-02-06.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2020-02-09.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2020-02-10.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2020-02-11.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2020-02-12.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f070000boj5r0klbum9c61ssj5g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f140000boil7vfrri69nh909n3g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f140000bor4issr08m3inbnkne0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f2f0000bo2ucrdjfrmg2mvggn9g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f370000bokh0pc9hq5q5k474hmg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f370000bominss9hq5q5k5pdo50.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f3b0000boakgfpum7lmsf1e3epg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f3e0000boetdad34q1ahm99j4u0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f440000bo66hvjpqv6711dcd09g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f5b0000boe1g8g7q8i0g9g1ion0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f5b0000bofge2ubm86n30jhbvk0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f670000bo463jg858llg6uam0vg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f670000bok2bc1q4do4snmqadng.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f670000bouhabhdli3gg9qi227g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f6b0000bobhj7fqaba3l1scr51g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f6b0000boc92f4d1dr29foieat0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f6b0000bodseg73cp54dm0no86g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f6b0000boe5aqiikatv9sae2pg0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f7b0000bog0t5sm7fiaugifbnug.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f7b0000boglrecm7fiaugj3ivg0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f850000bo6pe01dli3iio02rb00.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f8d0000bo4pfvi0ifkmmgnkbac0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f9b0000bohbnvnibkto80errilg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200f9b0000bohrogo858lngrnksssg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200fa40000bokkfl8nrm1hl314jgn0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200fa40000bom2t32k781g1l2b8dgg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200fa50000bon8h1ut8ah4uil8a0e0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200fc40000bojafo81ahqefptndhag.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200fc40000boltt56bn5ve7omagdn0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200fc40000bontr7sps0sj8jfug210.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200fc40000bosdfm481ukr9u094lpg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200fc40000bottdicuatl0uc1gpmkg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200fc70000bov0scagnbh9jrhhrn10.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200fe40000bopbvflds136m8besjkg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200fe40000boqmsv7u9qb5r5fhv0o0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200fe80000bo3g8b8ghl0s7jp4bi90.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200fe90000bo7ctavrri68f2pt6d4g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200fe90000bod85rkr08m055fdvrq0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200ff10000bol8bacpg62dljtn7it0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200ff10000bonoi9d8n75qmf8i00og.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200ff10000bor5j920ifksavc37o9g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y/v0200ff70000borbp52kr6g3l5p28t5g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f030000bjs40et7gl1q2hum2rpg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f040000bgc44rimac2rl8jnc6q0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f050000bgeffqb82vu699q9hq5g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f070000bojs2frbo1i2u3b8bsr0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f070000bopli4nm1hfc64gp1de0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f0b0000bg36c97ibktjob8iuqt0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f0c0000bfr6fp0nrm1hqab3ffr0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f0c0000bfs84lj2ap97i4dpg3rg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f140000bom70091h1vmrrddpgc0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f140000bontjbj82vu5kr53b38g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f140000booi9o8a2pes79j0sd7g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f140000bopkl2o9lr71jof0uv00.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f140000boqnf3jrh3pfeb6941sg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f150000bg4969r3ft9hv47m7h0g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f150000bg4fq8slbum3d3aohp60.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f1a0000bhfmjnj6j2qmp2m7p2h0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f1a0000bhhm58igd9fp5iu9hlcg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f270000bilsq9q7u0r2elp4gdm0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f2b0000bogqgdom4cipmkihea7g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f2e0000bgbhd5o1ahq26rosqq1g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f2f0000bm1bdvebn5v1v159ehk0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f340000binb9rneqk8a0nn7ou3g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f3b0000bobo29viv42f725uthsg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f3d0000bkc0ehlp06vpd35j91d0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f3e0000bntcnobcp239mk98bkt0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f410000bg1ceclf1stf892no2ig.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f440000bnq99fjc86dmcc0j7omg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f450000bhmrs426tgq67fvr79fg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f470000bi6o6eq7u0rdl6eovge0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f470000bn95m3t34q10qecd2h6g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f4f0000biag7gg2sajbll3vdco0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f500000bm0o6ij3ft9htkkokah0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f560000bfvo01c81ukpp413uikg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f560000bgpaf3fu9qbfh42a14a0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f580000bfqjq6rd82duvjv58cog.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f5c0000bfv3rurrh3p4vq3271lg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f5c0000bi627dj6936rfe8gm9o0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f600000bh1gpcl8n75jb825u1m0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f660000bgdkjoqepr1733tckok0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f670000bo1l5gimac2noi5omco0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f670000boqorghdli3gg9vqtahg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f690000bftpduebn5v9ck5fg5c0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f690000bfudof2iv575bjlb3fo0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f6b0000bfr0v0e8qblcnit4ep4g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f6b0000bo95kaqikatv9s828i10.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f720000bgi8ov1q4do8nrondkm0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f720000bgr56hhq4do8nrqkedog.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f720000bh9tlcr3ft9sh5ckjh60.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f770000bnt2b29pskdnsc960iqg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f7f0000bg12l3uue3mlt1vusvn0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f840000bnufn451mik8taspd6c0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f850000bgtdm8t8n75gid6toecg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f900000bh7m65cuatl5k6r3q24g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f910000bg982rhpskdq4dbf03jg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f920000bg7ssjgnrm1m8vijc55g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f990000bm42kiubm86t7t41nqug.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200f9f0000bfqd69qk781o5s75c24g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fa10000biika5dd2r6e421epp1g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fa40000boiqdenff77a2qjd7e70.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fa40000bos9ltonrm1hl36g0c90.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fa40000botq2sqk781g1l7i72ug.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fb70000bgrp5bd1mik5hgehcbsg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fc40000bol7tek81ukr9u3a4gb0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fc40000bomm9ku8qbl2dchfffl0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fc40000bomu3qugnco95lgofn60.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fc60000bg6g65fiv428mh0tkbig.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fc70000bgamlkugncobpe3juhn0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fc70000bom1npmbm86li0j7pdp0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fc70000boudkaneqk81sohfvoqg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fcb0000bg00v6cthbi4kkvohr2g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fd50000bo3la8gm4cit8vd7831g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fd60000bfq47hs0gfkv3hdkbc8g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fdc0000bhkbhdb3ft9ok1hr2bdg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fe20000bo15m1edm156le1tvo5g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fe50000bg57k4aiv57duvnuh7ag.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fe50000bh3nh83cp23a8glon650.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fe60000bnn4hr73cp535qssbu60.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fe80000bgsofd2iv578e7iqrp20.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fe80000bjesqq9cgf3br73jv98g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fe90000boej2bp1h1vivb5r63l0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200feb0000bgvf2226tgqdlgjus3kg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200ff10000blj05kg2saj345dd9v70.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200ff10000bokgl0kpg62dljt63upg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200ff10000bolh3s5jfrmo3m1og0gg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200ff10000borkcua6tgqek291i9eg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200ff10000bosetkuvld7780ksmrg0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200ff10000bot2sruj5ugrekuki5k0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200ff60000bg5qo7k0gfklnb2619l0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200ff90000bgjl5p91h1vg5b4tq4a0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200ff90000bluf18hcgf353mc9gfag.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200ffd0000bh197ukr08m7qnrlaodg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0200fff0000bg8d70fk43ajqpvvdtng.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300f000000bmcn16nfbmpot09pso10.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300f0d0000bhk973udue0es0gfphvg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300f140000bg9ohpmkfnvosg9kgtl0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300f160000bg5i8ntm7i9rud7q7iqg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300f240000bheurghq8b1qt2gf34bg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300f250000bhpn3g2hh3mjt6aruc70.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300f440000biclqelpimmf8emerbvg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300f440000bo245iabc5oqbov67jp0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300f680000bie6mnmt2uljpssatkdg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300f700000bm047af82ijhfi9e37d0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300f730000bjenu7e409jmq54384c0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300f870000bimmkccif32g2spgie30.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300f980000bkha252octpa4i33etk0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300f990000bltg3ng45gtlrnfjkdl0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300f990000bnrj3hjepd7cbap8dhsg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300fa50000bjlaconn07olc2jubaqg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300fae0000bma3dfoe74g89msv2vs0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300fbe0000bkipeqhseu25madoj2u0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300fc10000bg67irhdja5jurb4bt90.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300fc20000bik1hqkif32phdckdct0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300fd10000bft2mbkhpahsk9tqa2v0.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300fe00000bg2fki4if32h04vbd78g.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300ff60000blhtqhb2esickisvdv30.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vedio/download/MS4wLjABAAAAyyzyFDmccTkbhCMqAq1__IuRVuV0O8dnoBABvUgQ3_w/v0300ffb0000bia1vamt2ulgrcjdo8t0.mp4" afterDir="false" />
+    <list default="true" id="691a6d94-5e89-4726-bb2b-869da8058577" name="Default Changelist" comment="modify 2020-02-13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone_multiprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone_multiprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/tomcatwang/common/configParse.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/tomcatwang/common/configParse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/tomcatwang/common/douyin_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/tomcatwang/common/douyin_init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/2020-02-08.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tomcatwang/common/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/tomcatwang/common/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tomcatwang/test/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/tomcatwang/test/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/2529b8a80906.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/2529b8a80906.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/7460300e.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/7460300e.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/d3cf3594.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/d3cf3594.ini" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -190,13 +25,17 @@
     <SUITE FILE_PATH="coverage/yinliu1$douyin__1_.coverage" NAME="douyin (1) Coverage Results" MODIFIED="1580135659238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/main" />
     <SUITE FILE_PATH="coverage/yinliu1$GenPyFile.coverage" NAME="GenPyFile Coverage Results" MODIFIED="1580190747992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/main" />
     <SUITE FILE_PATH="coverage/yinliu1$dbtest__1_.coverage" NAME="dbtest (1) Coverage Results" MODIFIED="1580114594414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/main" />
-    <SUITE FILE_PATH="coverage/yinliu_douyin$douyin_phone.coverage" NAME="douyin_phone Coverage Results" MODIFIED="1581512261391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
+    <SUITE FILE_PATH="coverage/yinliu_douyin$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1581858239391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/test" />
+    <SUITE FILE_PATH="coverage/yinliu_douyin$douyin_phone.coverage" NAME="douyin_phone Coverage Results" MODIFIED="1581681844064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
     <SUITE FILE_PATH="coverage/yinliu1$douyin_phone.coverage" NAME="douyin_phone Coverage Results" MODIFIED="1580631972160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
     <SUITE FILE_PATH="coverage/yinliu_douyin$douyin_multiprocessing.coverage" NAME="douyin_multiprocessing Coverage Results" MODIFIED="1580973966536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
     <SUITE FILE_PATH="coverage/yinliu1$douyin_multiprocessing.coverage" NAME="douyin_multiprocessing Coverage Results" MODIFIED="1580022632017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yinliu1$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1580142376197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/uiautomator2" />
+    <SUITE FILE_PATH="coverage/yinliu_douyin$douyin_phone_7460300e.coverage" NAME="douyin_phone_7460300e Coverage Results" MODIFIED="1581688975367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
     <SUITE FILE_PATH="coverage/yinliu_douyin$douyin_phone_multiprocessing.coverage" NAME="douyin_phone_multiprocessing Coverage Results" MODIFIED="1581513063694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
+    <SUITE FILE_PATH="coverage/yinliu_douyin$douyin_phone1.coverage" NAME="douyin_phone1 Coverage Results" MODIFIED="1581581600417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
     <SUITE FILE_PATH="coverage/yinliu_douyin$test.coverage" NAME="test Coverage Results" MODIFIED="1581150987017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
+    <SUITE FILE_PATH="coverage/yinliu_douyin$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1581687432870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/test" />
     <SUITE FILE_PATH="coverage/yinliu1$uiautomator2_cmd.coverage" NAME="uiautomator2_cmd Coverage Results" MODIFIED="1580186412760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/common" />
     <SUITE FILE_PATH="coverage/yinliu_douyin$amemv_video_ripper.coverage" NAME="amemv-video-ripper Coverage Results" MODIFIED="1581171164497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
     <SUITE FILE_PATH="coverage/yinliu1$db.coverage" NAME="db Coverage Results" MODIFIED="1580112949363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -204,16 +43,47 @@
     <SUITE FILE_PATH="coverage/yinliu1$content_test.coverage" NAME="content_test Coverage Results" MODIFIED="1580190760756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/main" />
     <SUITE FILE_PATH="coverage/yinliu1$dbtest.coverage" NAME="dbtest Coverage Results" MODIFIED="1580114548374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yinliu_douyin$configParse.coverage" NAME="configParse Coverage Results" MODIFIED="1581512130998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/common" />
+    <SUITE FILE_PATH="coverage/yinliu_douyin$douyin_init.coverage" NAME="douyin_init Coverage Results" MODIFIED="1581584088152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/tomcatwang/common" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="yinliu_douyin" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone_multiprocessing.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/2529b8a80906.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="449">
+              <caret line="38" selection-start-line="38" selection-end-line="41" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/7460300e.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/d3cf3594.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="26" column="62" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="62" />
               <folding>
-                <element signature="e#25#69#0" expanded="true" />
+                <element signature="e#25#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -230,8 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>resource</find>
-      <find>__call__</find>
       <find>resourceId</find>
       <find>Device</find>
       <find>__call</find>
@@ -260,6 +128,8 @@
       <find>click</find>
       <find>page_down_x1</find>
       <find>logger</find>
+      <find>hua</find>
+      <find>huasu</find>
     </findStrings>
     <replaceStrings>
       <replace>self.shell(</replace>
@@ -267,6 +137,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -291,7 +164,6 @@
         <option value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/test.py" />
         <option value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_vedio_clawer.py" />
         <option value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/amemv-video-ripper.py" />
-        <option value="$PROJECT_DIR$/com/tomcatwang/common/douyin_init.py" />
         <option value="$PROJECT_DIR$/config/config_7460300e.txt" />
         <option value="$PROJECT_DIR$/com/tomcatwang/PythonConfigTxt.py" />
         <option value="$PROJECT_DIR$/com/tomcatwang/PythonConfigTest.py" />
@@ -299,10 +171,16 @@
         <option value="$PROJECT_DIR$/config/test.ini" />
         <option value="$PROJECT_DIR$/config/test1.ini" />
         <option value="$PROJECT_DIR$/com/tomcatwang/common/configParse.py" />
-        <option value="$PROJECT_DIR$/config/7460300e.ini" />
-        <option value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py" />
         <option value="$PROJECT_DIR$/com/tomcatwang/common/log.py" />
         <option value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone_multiprocessing.py" />
+        <option value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone1.py" />
+        <option value="$PROJECT_DIR$/com/tomcatwang/common/douyin_init.py" />
+        <option value="$PROJECT_DIR$/com/tomcatwang/test/test1.py" />
+        <option value="$PROJECT_DIR$/com/tomcatwang/test/test2.py" />
+        <option value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py" />
+        <option value="$PROJECT_DIR$/config/2529b8a80906.ini" />
+        <option value="$PROJECT_DIR$/config/7460300e.ini" />
+        <option value="$PROJECT_DIR$/config/d3cf3594.ini" />
       </list>
     </option>
   </component>
@@ -323,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -359,6 +238,13 @@
             <path>
               <item name="yinliu_douyin" type="b2602c69:ProjectViewProjectNode" />
               <item name="yinliu_douyin" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tomcatwang" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yinliu_douyin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yinliu_douyin" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -366,14 +252,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581513350628" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581858324138" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -393,16 +278,17 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\tomcatwang\Desktop\yinliu_douyin\com\tomcatwang\bussiness\douyin" />
-      <recent name="D:\ideaprojects\yinliu1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ideaprojects\yinliu1\com\tomcatwang" />
       <recent name="D:\ideaprojects\yinliu1\com\tomcatwang\bussiness\douyin" />
       <recent name="D:\ideaprojects\yinliu1\com\tomcatwang\test" />
       <recent name="D:\ideaprojects\yinliu1\com\tomcatwang\common" />
       <recent name="D:\ideaprojects\yinliu1\com\tomcatwang\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tomcatwang\Desktop\yinliu_douyin\config" />
+      <recent name="C:\Users\tomcatwang\Desktop\yinliu_douyin\com\tomcatwang\bussiness\douyin" />
+      <recent name="D:\ideaprojects\yinliu1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -417,30 +303,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.douyin_phone_multiprocessing">
-    <configuration name="amemv-video-ripper" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yinliu1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\tomcatwang\AppData\Local\Programs\Python\Python38\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/amemv-video-ripper.py" />
-      <option name="PARAMETERS" value="https://www.iesdouyin.com/share/user/101897037023?u_code=158mf6i5j&amp;sec_uid=MS4wLjABAAAAkdUUzx_TG8vsrZWXt7v9mGx_8FcmqzZv1iamyN7_C4Y" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="configParse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test2">
+    <configuration name="douyin_init" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yinliu1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -453,7 +317,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tomcatwang/common/configParse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tomcatwang/common/douyin_init.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -484,7 +348,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="douyin_phone_multiprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="douyin_phone1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yinliu1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -497,7 +361,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone_multiprocessing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -506,7 +370,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="douyin_phone_7460300e" type="PythonConfigurationType" factoryName="Python">
+      <module name="yinliu1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\tomcatwang\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yinliu1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -514,12 +400,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/tomcatwang/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tomcatwang/test/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yinliu1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/tomcatwang/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tomcatwang/test/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -529,19 +437,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.amemv-video-ripper" />
+      <item itemvalue="Python.douyin_phone_7460300e" />
       <item itemvalue="Python.douyin_phone" />
-      <item itemvalue="Python.douyin_phone_multiprocessing" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.configParse" />
+      <item itemvalue="Python.test1" />
+      <item itemvalue="Python.douyin_phone1" />
+      <item itemvalue="Python.douyin_init" />
+      <item itemvalue="Python.test2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.douyin_phone_multiprocessing" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.test1" />
         <item itemvalue="Python.douyin_phone" />
-        <item itemvalue="Python.configParse" />
-        <item itemvalue="Python.amemv-video-ripper" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.douyin_init" />
+        <item itemvalue="Python.douyin_phone1" />
       </list>
     </recent_temporary>
   </component>
@@ -589,7 +498,12 @@
       <workItem from="1581388661506" duration="2418000" />
       <workItem from="1581426282146" duration="3562000" />
       <workItem from="1581469993485" duration="4583000" />
-      <workItem from="1581511962518" duration="1361000" />
+      <workItem from="1581511962518" duration="8586000" />
+      <workItem from="1581597455318" duration="669000" />
+      <workItem from="1581680939745" duration="6927000" />
+      <workItem from="1581689261864" duration="61000" />
+      <workItem from="1581735301935" duration="982000" />
+      <workItem from="1581848011556" duration="1416000" />
     </task>
     <task id="LOCAL-00001" summary="modify 2020-02-03">
       <created>1580782693010</created>
@@ -654,17 +568,45 @@
       <option name="project" value="LOCAL" />
       <updated>1581245214258</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="modify 2020-02-12">
+      <created>1581513729064</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581513729064</updated>
+    </task>
+    <task id="LOCAL-00011" summary="modify 2020-02-13">
+      <created>1581597538218</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581597538218</updated>
+    </task>
+    <task id="LOCAL-00012" summary="modify 2020-02-14">
+      <created>1581687852719</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1581687852719</updated>
+    </task>
+    <task id="LOCAL-00013" summary="modify 2020-02-13">
+      <created>1581689321416</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581689321416</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223121000" />
+    <option name="totallyTimeSpent" value="240401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957507" visible="true" weight="0.1930295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957507" visible="true" weight="0.20643431" />
       <window_info id="Structure" order="1" sideWeight="0.5042493" side_tool="true" weight="0.20308311" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -675,7 +617,7 @@
       <window_info id="设计师" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5495751" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5410765" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -704,7 +646,7 @@
       <window_info anchor="right" id="控制板" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4957507" visible="true" weight="0.18766756" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4957507" visible="true" weight="0.19839142" />
       <window_info id="Structure" order="1" sideWeight="0.5042493" side_tool="true" weight="0.20308311" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -714,8 +656,8 @@
       <window_info id="Learn" order="7" />
       <window_info id="设计师" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7889518" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5410765" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -747,12 +689,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modify 2020-02-03" />
     <MESSAGE value="modify 2020-02-06" />
     <MESSAGE value="modify 2020-02-05" />
     <MESSAGE value="modify 2020-02-09" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify 2020-02-09" />
+    <MESSAGE value="modify 2020-02-12" />
+    <MESSAGE value="modify 2020-02-14" />
+    <MESSAGE value="modify 2020-02-13" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify 2020-02-13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -784,40 +732,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="1734" selection-start-line="1734" selection-end-line="1734" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/main/content_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding>
-            <element signature="e#25#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/main/GenPyFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/uiautomator2_cmd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="37" column="33" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="33" />
-          <folding>
-            <element signature="e#24#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -827,16 +741,6 @@
     </entry>
     <entry file="file://$USER_HOME$/.IntelliJIdea2018.3/system/python_stubs/85948042/builtins.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/goto.py" />
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="e#24#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/uiautomator2/abcd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -894,9 +798,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.txt" />
     <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/scrcpy_multipy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -984,31 +886,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding>
-            <element signature="e#25#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_vedio_clawer.py" />
     <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/amemv-video-ripper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8714">
           <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="e#25#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1019,33 +901,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/douyin_init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <element signature="e#25#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config_d3cf3594.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/adb_assign_device.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config_d3cf3594.txt" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3420">
@@ -1070,48 +926,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/test.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config/test.ini" />
     <entry file="file://$PROJECT_DIR$/config/config_7460300e.ini" />
-    <entry file="file://$PROJECT_DIR$/config/test1.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/configParse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/7460300e.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4302">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="e#25#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config/test1.ini" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1131,11 +948,126 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone_multiprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="285">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="e#25#69#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#25#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="282" column="21" selection-start-line="282" selection-start-column="9" selection-end-line="282" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#25#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/adb_assign_device.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/configParse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/common/douyin_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+          <folding>
+            <element signature="e#25#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/test/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="23" column="110" lean-forward="true" selection-start-line="13" selection-end-line="23" selection-end-column="110" />
+          <folding>
+            <element signature="e#24#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#24#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/test/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#24#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tomcatwang/bussiness/douyin/douyin_phone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="26" column="62" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="62" />
+          <folding>
+            <element signature="e#25#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/2529b8a80906.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="38" selection-start-line="38" selection-end-line="41" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/7460300e.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/d3cf3594.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
         </state>
       </provider>
     </entry>

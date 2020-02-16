@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import uiautomator2 as u2
+import random
 
-d = u2.connect('2529b8a80906')
-xml = d.dump_hierarchy()
-print(xml)
+for i in range(0,3) :
+    husu_array_index = random.randint(1,3)
+    print(husu_array_index)

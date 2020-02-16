@@ -5,10 +5,8 @@ import time
 from com.tomcatwang.common.log import Logger
 from com.tomcatwang.common.configParse import Config_Parse
 
-
-
-def douyin_init(d,device) :
-    configuration = Config_Parse(device)
+def douyin_init(d,device,config_path) :
+    configuration = Config_Parse(device,config_path)
     d.app_start("com.github.uiautomator", "com.github.uiautomator.MainActivity")
 
     #xml = d.dump_hierarchy()

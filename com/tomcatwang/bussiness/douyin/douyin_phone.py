@@ -1,25 +1,36 @@
 # -*- coding: utf-8 -*-
 
+import re
+import sys
+import time
+import random
 import uiautomator2 as u2
-import time, re
+
 from com.tomcatwang.common.adb_assign_device import adb_assign_device
-from com.tomcatwang.common.log import Logger
-from com.tomcatwang.common.douyin_init import douyin_init
 from com.tomcatwang.common.configParse import Config_Parse
+from com.tomcatwang.common.douyin_init import douyin_init
+from com.tomcatwang.common.log import Logger
 
 
-def execute(device):
+def execute(device, config_path):
     ##########################################################################
     '''
     参数设置
     '''
-    logger = Logger()
-    configuration = Config_Parse(device)
+    logger = Logger(config_path)
+    configuration = Config_Parse(device, config_path)
     adb = adb_assign_device(device)
     # loop video num 需要循环观看多少个视频
-    loop_video_num = 10
-    loop_message_num = 6
-    hua_su = '最近在家那里都去不了，好无聊啊，认识一下呗，我威信: A_lovelygirl_999 '
+    loop_video_num = int(configuration.get_config_values('loop_video_num'))
+    loop_message_num = int(configuration.get_config_values('loop_message_num'))
+    hua_su_array = []
+    hua_su_array[1] = configuration.get_config_values('hua_su1')
+    hua_su_array[2] = configuration.get_config_values('hua_su2')
+    hua_su_array[3] = configuration.get_config_values('hua_su3')
+
+    husu_array_index = random.randint(1,3)
+    hua_su = hua_su_array[husu_array_index]
+
     douyin_start_time = 8
     ##########################################################################
     ##抖音視頻翻頁##
@@ -98,7 +109,7 @@ def execute(device):
     d = u2.connect(device)
 
     logger.info("程序初始化......................................................................")
-    douyin_init(d, device)
+    douyin_init(d, device, config_path)
     logger.info("启动抖音程序....................................................................")
 
     try:
@@ -206,7 +217,7 @@ def execute(device):
 
                                     time.sleep(0.7)
 
-                                    if (d(text="取消关注").exists() or d(text="相互关注").exists() or d(text="正在请求")):
+                                    if (d(text="取消关注").exists() or d(text="互相关注").exists() or d(text="正在请求")):
                                         logger.info("第" + str(
                                             i) + "个有用户已经关注了或者需要请求，返回......................................................")
                                         return_pre_page()
@@ -305,8 +316,11 @@ def execute(device):
 
                         logger.info("完成第" + str(
                             j) + "视频-----------------------------------------------------------------------------end\n")
-
-                        time.sleep(1)
+                        #
+                        each_video_sleep_times_min = configuration.get_config_values('each_video_sleep_times_min')
+                        each_video_sleep_times_max = configuration.get_config_values('each_video_sleep_times_max')
+                        random_sleep_time = random.randint(int(each_video_sleep_times_min),int(each_video_sleep_times_max))
+                        time.sleep(random_sleep_time)
                 except Exception as e2:
                     logger.error(e2)
                     continue
@@ -316,6 +330,10 @@ def execute(device):
         logger.error(e)
 
 
-execute('2529b8a80906')
-#execute('7460300e')
-#execute('d3cf3594')
+# execute('2529b8a80906')
+# execute('7460300e')
+# execute('d3cf3594')
+if (len(sys.argv) < 0):
+    print(" input douyin_phone decvice_name")
+print(sys.argv[1],sys.argv[2])
+execute(sys.argv[1], sys.argv[2])
