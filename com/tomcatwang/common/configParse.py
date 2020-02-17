@@ -34,6 +34,6 @@ class Config_Parse:
 
 
 if __name__ == '__main__':
-    configuration = Config_Parse("7460300e")
+    configuration = Config_Parse(r"d3cf3594",r"C:\Users\tomcatwang\Desktop\yinliu_douyin\config")
     # print(configuration.get_config_values('ServerAliveInterval','tomcatwang'))
     print(configuration.get_config_values("page_down_x1", 'tomcatwang'))

@@ -41,25 +41,21 @@ def execute(device, config_path):
     #    return Logger().logger
 
     def return_pre_page():
-        if_use_system_bak_menu= int(configuration.get_config_values('if_use_system_bak_menu'))
-        if  if_use_system_bak_menu == 1 :
-            d.press('back')
-        else :
-            return_page_menu = configuration.get_config_values('return_page_menu')
-            if return_page_menu != '':
-                print("=======================1")
-                if (d(resourceId=return_page_menu).exists(timeout=1)):
-                    print("=======================2")
-                    d(resourceId=return_page_menu).click()
-                else:
-                    print("=======================3" + configuration.get_config_values(
-                        "return_x") + "," + configuration.get_config_values("return_y"))
-                    adb.tap(int(configuration.get_config_values("return_x")),
-                            int(configuration.get_config_values("return_y")))
+        return_page_menu = configuration.get_config_values('return_page_menu')
+        if return_page_menu != '':
+            print("=======================1")
+            if (d(resourceId='com.ss.android.ugc.aweme:id/kp').exists(timeout=1)):
+                print("=======================2")
+                d(resourceId='com.ss.android.ugc.aweme:id/kp').click()
             else:
-                print("=======================4" + configuration.get_config_values(
+                print("=======================3" + configuration.get_config_values(
                     "return_x") + "," + configuration.get_config_values("return_y"))
-                adb.tap(int(configuration.get_config_values("return_x")), int(configuration.get_config_values("return_y")))
+                adb.tap(int(configuration.get_config_values("return_x")),
+                        int(configuration.get_config_values("return_y")))
+        else:
+            print("=======================4" + configuration.get_config_values(
+                "return_x") + "," + configuration.get_config_values("return_y"))
+            adb.tap(int(configuration.get_config_values("return_x")), int(configuration.get_config_values("return_y")))
 
         # d.click(61,143)
         # d.adb_shell("adb shell input tap 61 143")
@@ -92,7 +88,7 @@ def execute(device, config_path):
     '''
 
     def check_is_user_guanzhu_page():
-        if (d(text="取消关注").exists() or d(text="相互关注").exists() or d(text="正在请求") or d(text="已请求")):
+        if (d(text="取消关注").exists() or d(text="相互关注").exists() or d(text="正在请求")):
             logger.info("在用户关注页面，需要返回")
             return_pre_page()
             logger.info("返回视频留言页面..............................................................")
@@ -139,7 +135,6 @@ def execute(device, config_path):
             loop_message_num_per = loop_message_num
             # pagedown,上滑，视频翻页,随机向上翻几次
             page_down_num = random.randint(2, 5)
-            logger.info("page_down_num------------------------------> : " + str(page_down_num))
             for k in range(0, page_down_num):
                 d.swipe(page_down_x1, page_down_y1, page_down_x2, page_down_y2)
                 time.sleep(1)
@@ -360,8 +355,7 @@ def execute(device, config_path):
 # execute('2529b8a80906')
 # execute('7460300e')
 # execute('d3cf3594')
-#if (len(sys.argv) < 0):
-#    print(" input douyin_phone decvice_name item_path")
-#print(sys.argv[1], sys.argv[2])
-#execute(sys.argv[1], sys.argv[2])
-execute('emulator-5554',r'C:\Users\tomcatwang\Desktop\yinliu_douyin')
+if (len(sys.argv) < 0):
+    print(" input douyin_phone decvice_name item_path")
+print(sys.argv[1], sys.argv[2])
+execute(sys.argv[1], sys.argv[2])

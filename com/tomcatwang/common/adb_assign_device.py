@@ -12,8 +12,10 @@ class adb_assign_device:
         # one-offs
         print(cmd)
         if (str(self.device).__contains__("emulator")) :
-            execute = subprocess.Popen("adb -d " + self.device + " %s" % cmd, shell=True, stdout=subprocess.PIPE)
+            print(" emulator ")
+            execute = subprocess.Popen("adb -s " + self.device + " %s" % cmd, shell=True, stdout=subprocess.PIPE)
         else :
+            print(" device ")
             execute = subprocess.Popen("adb -s " + self.device + " %s" % cmd, shell=True, stdout=subprocess.PIPE)
         print(execute.stdout.read())
         return execute
